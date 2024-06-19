@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>f85fe0f7-c715-4790-92f1-a149cfb75860</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Yarp.ReverseProxy" Version="2.2.0-preview.1.24266.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.WsFederation" Version="7.0.20" />
+  </ItemGroup>
+
+</Project>
